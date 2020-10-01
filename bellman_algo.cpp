@@ -42,7 +42,7 @@ int main()
 		w = edges[j][2];
  
 		if (dis[v] > dis[u] + w) {
-			cout << "Negative cycle is there";
+			cout << "Negative cycle detected";
 			return 0;
 		}
 	}
